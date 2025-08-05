@@ -16,7 +16,7 @@ app.use(express.urlencoded({ extended: true}));
 
 dotenv.config({
     path: "./.env",
-})
+});
 
 const port = process.env.PORT || 8000;
 const db =process.env.MONGO_URL;
